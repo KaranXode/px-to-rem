@@ -54,7 +54,7 @@ const PxToRemConverter = () => {
         <h1 className="text-center">Pixel to Rem Converter</h1>
         <p className="text-center">{titles[titleIndex]}</p>
       </div>
-      <div className="d-flex gap-5">
+      <div className="d-flex gap-5 responsive">
         <div className="d-flex flex-column">
           <label className="form-label">Pixels </label>
           <input type="number" value={pxValue} onChange={handlePxChange} placeholder="1" className="form-control form-px-control"/>
