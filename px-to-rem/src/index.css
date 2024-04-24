@@ -41,3 +41,15 @@ code {
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
+
+@media (max-width:568px) {
+  h1{
+    font-size: 20px;
+  }
+  .subTitle{
+    font-size: 14px;
+  }
+  .form-px-control{
+    font-size: 24px;
+  }
+}
