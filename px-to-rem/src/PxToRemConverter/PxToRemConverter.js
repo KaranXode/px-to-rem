@@ -52,7 +52,7 @@ const PxToRemConverter = () => {
       <div>
       <div className="mb-5">
         <h1 className="text-center">Pixel to Rem Converter</h1>
-        <p className="text-center">{titles[titleIndex]}</p>
+        <p className="text-center subTitle">{titles[titleIndex]}</p>
       </div>
       <div className="d-flex gap-5 responsive">
         <div className="d-flex flex-column">
